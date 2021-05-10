@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: function comp with styled
+# key: fncs
+# --
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
+const ${1:Component} = (props) => {
+$0
+};
+
+// const = styled.``
+
+${1:Component}.propTypes = propTypes;
+${1:Component}.defaultProps = defaultProps;
+
+const propTypes = {};
+
+const defaultProps = {};
+
+export default ${1:Component};
