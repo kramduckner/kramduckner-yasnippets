@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: thunk
+# key: th
+# --
+export const ${1:functionName} = (${2:args}) => async(dispatch, getState) => {
+$0
+}
