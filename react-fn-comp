@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: react fn comp
+# key: fnc
+# --
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components'
+
+const ${1:Component} = ({}) => {
+$0
+};
+
+${1:Component}.propTypes = {};
+${1:Component}.defaultProps = {};
+
+
+export default ${1:Component};
